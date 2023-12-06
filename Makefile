@@ -1,0 +1,2 @@
+build:
+	go build -v -ldflags="-X 'github.com/julientant/supportctl/zendesk.ClientID=supportctl' -X 'github.com/julientant/supportctl/zendesk.ClientSecret=2e6399cf672fa831dbc6b47d851c66f8d4fe34617e701ab19f8685878729139c'" -o build/supportctl
